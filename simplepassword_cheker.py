@@ -22,4 +22,4 @@ if special_char < 2:
 #running the final out put if they write correctly 
 else:
 	print("YOUR PASSWORD IS TOO STRONG : ",password.replace(" ","-"))
-	print("working")
+	
