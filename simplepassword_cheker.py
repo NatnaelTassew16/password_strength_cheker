@@ -18,8 +18,9 @@ if isdigit < 3:
 #cheking how many special character does they use in there password at lsit 3
 special_char = sum(1 for char in password if not char.isalnum() and not char.isspace())
 if special_char < 2:
-	print("please use at least one more characher")
+	print("please use at least one more characher!!!")
 #running the final out put if they write correctly 
 else:
 	print("YOUR PASSWORD IS TOO STRONG : ",password.replace(" ","-"))
-	
+
+
